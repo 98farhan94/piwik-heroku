@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b338a3702d1443754968433fdec60845",
+    "content-hash": "de36aec052a41901a234e7831b72e8ae",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -64,16 +64,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "141b272484481432cda342727a427dc1e206bfa0"
+                "reference": "7d610d50aae61ae7ed6675e58efeabdf279bb5e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/141b272484481432cda342727a427dc1e206bfa0",
-                "reference": "141b272484481432cda342727a427dc1e206bfa0",
+                "url": "https://api.github.com/repos/composer/installers/zipball/7d610d50aae61ae7ed6675e58efeabdf279bb5e3",
+                "reference": "7d610d50aae61ae7ed6675e58efeabdf279bb5e3",
                 "shasum": ""
             },
             "require": {
@@ -121,6 +121,7 @@
                 "Kanboard",
                 "Lan Management System",
                 "MODX Evo",
+                "MantisBT",
                 "Mautic",
                 "Maya",
                 "OXID",
@@ -175,6 +176,7 @@
                 "shopware",
                 "silverstripe",
                 "sydes",
+                "sylius",
                 "symfony",
                 "typo3",
                 "wordpress",
@@ -182,7 +184,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2019-08-12T15:00:31+00:00"
+            "time": "2020-02-07T10:39:20+00:00"
         },
         {
             "name": "composer/semver",
@@ -275,6 +277,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -956,18 +959,18 @@
             "authors": [
                 {
                     "name": "Greg Beaver",
-                    "role": "Helper",
-                    "email": "cellog@php.net"
+                    "email": "cellog@php.net",
+                    "role": "Helper"
                 },
                 {
                     "name": "Andrei Zmievski",
-                    "role": "Lead",
-                    "email": "andrei@php.net"
+                    "email": "andrei@php.net",
+                    "role": "Lead"
                 },
                 {
                     "name": "Stig Bakken",
-                    "role": "Developer",
-                    "email": "stig@php.net"
+                    "email": "stig@php.net",
+                    "role": "Developer"
                 }
             ],
             "description": "More info available on: http://pear.php.net/package/Console_Getopt",
@@ -1010,8 +1013,8 @@
             "authors": [
                 {
                     "name": "Christian Weiske",
-                    "role": "Lead",
-                    "email": "cweiske@php.net"
+                    "email": "cweiske@php.net",
+                    "role": "Lead"
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",
@@ -1394,12 +1397,12 @@
             "version": "0.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/piwik/component-network.git",
+                "url": "https://github.com/matomo-org/component-network.git",
                 "reference": "b270d14d9b4ddc9d63bfee4e85f08899a215ef20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/piwik/component-network/zipball/b270d14d9b4ddc9d63bfee4e85f08899a215ef20",
+                "url": "https://api.github.com/repos/matomo-org/component-network/zipball/b270d14d9b4ddc9d63bfee4e85f08899a215ef20",
                 "reference": "b270d14d9b4ddc9d63bfee4e85f08899a215ef20",
                 "shasum": ""
             },
@@ -1419,6 +1422,7 @@
             "license": [
                 "LGPL-3.0"
             ],
+            "abandoned": "matomo/network",
             "time": "2016-07-18T04:10:33+00:00"
         },
         {
@@ -1542,6 +1546,7 @@
                 "piwik",
                 "tracker"
             ],
+            "abandoned": "matomo/matomo-php-tracker",
             "time": "2018-10-12T00:37:52+00:00"
         },
         {
@@ -1918,13 +1923,13 @@
             "authors": [
                 {
                     "name": "Jean-Damien Pogolotti",
-                    "role": "Creator of the original pChart library",
-                    "homepage": "http://www.pchart.net"
+                    "homepage": "http://www.pchart.net",
+                    "role": "Creator of the original pChart library"
                 },
                 {
                     "name": "Piotr Szymaszek",
-                    "role": "Developer of the CpChart wrapper package",
-                    "homepage": "https://github.com/szymach"
+                    "homepage": "https://github.com/szymach",
+                    "role": "Developer of the CpChart wrapper package"
                 }
             ],
             "description": "Port of \"pChart\" library into PHP 5",
@@ -1983,8 +1988,8 @@
             "authors": [
                 {
                     "name": "Nicola Asuni",
-                    "role": "lead",
-                    "email": "info@tecnick.com"
+                    "email": "info@tecnick.com",
+                    "role": "lead"
                 }
             ],
             "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
